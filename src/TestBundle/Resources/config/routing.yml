@@ -1,0 +1,7 @@
+test_homepage:
+    path:     /genus/{genusName}
+    defaults: { _controller: TestBundle:Default:show }
+
+genus_get_notes:
+    path:     /genus/{genusName}/notes
+    defaults: { _controller: TestBundle:Default:getNotes }
